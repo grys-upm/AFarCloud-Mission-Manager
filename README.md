@@ -42,12 +42,12 @@ Use `mvn install` from the Mission Manager project folder (the one with the `pom
 At this stage the Mission Manager have some properties that define its behavior, and that can be configured. These properties are:
 
 - `thrift.port` defines the port for the thrift service provided.
-- `thrift.style` defines the type of thrift service style used. By default it use *multiplex*. For V1.0.0-rc5 (Y2) ***leave it as is***.
+- `thrift.style` defines the type of thrift service style used. By default it use *multiplex*.
 - `rest.port` defines the port for the REST services provided. This includes the REST service for the System Configurator, as well as some other REST services for monitoring and configuring the Mission Manager while it is running.
 - `rest.base_uri` defines the base uri for the REST services provided.
-- `mmt.ip` defines the address of the MMT. ***Not used in v1.0.0-rc5 (Y2)***.
-- `mmt.port` defines the port of the MMT thrift service. ***Not used in v1.0.0-rc5 (Y2)***.
-- `mmt.enabled_notifications` defines if the Mission Manager is enabled or disabled to send notifications to the MMT. ***Not used in v1.0.0-rc5 (Y2)***.
+- `mmt.ip` defines the address of the MMT.
+- `mmt.port` defines the port of the MMT thrift service.
+- `mmt.enabled_notifications` defines if the Mission Manager is enabled or disabled to send notifications to the MMT.
 - `mqtt.protocol` defines the protocol used by the MQTT broker. By default it is set to *ssl*.
 - `mqtt.server` defines the server address for the MQTT broker.
 - `mqtt.port` defines the port for the MQTT broker.
