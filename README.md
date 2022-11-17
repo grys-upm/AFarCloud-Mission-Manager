@@ -146,8 +146,11 @@ The mission received from the MMT, as well as the generated files from it can be
 - **AFC-PM-*date*-*hour*-*requestId*-*missionId*-*vehicleId*.json**: Parsed prescription map for *vehicleId* from the received mission. This is the same content sent to the ISOBUS Converter.
 - **AFC-PM-*date*-*hour*.xml**: Generated prescription map received from the ISOBUS Converter.
 
-## Contact information
-To contact the Mission Manager main developer for questions related to the Mission Manager, you can use:
+# License
+Parts copyrighted by Universidad Politécnica de Madrid (UPM) are distributed
+under a dual license scheme:
 
-- [Slack](https://afarcloudproject.slack.com/team/URV28UZRU) (Faster to solve issues).
-- [Mail](mailto:nestor.lucas@upm.es).
+- For academic uses: Licensed under GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+- For any other use: Licensed under the Apache License, Version 2.0.
+
+For further details on the license, please refer to the [License](License) file.
