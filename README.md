@@ -147,8 +147,7 @@ The mission received from the MMT, as well as the generated files from it can be
 - **AFC-PM-*date*-*hour*.xml**: Generated prescription map received from the ISOBUS Converter.
 
 # License
-Parts copyrighted by Universidad Politécnica de Madrid (UPM) are distributed
-under a dual license scheme:
+The Mission Manager for AFC is distributed under a dual license scheme:
 
 - For academic uses: Licensed under GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 - For any other use: Licensed under the Apache License, Version 2.0.
