@@ -81,7 +81,7 @@ To change any configuration property, make a **PUT** request to the same address
 
 ***NOTE:*** Every change made during the execution of the Mission Manager is made permanent, and stored in a configuration file called `stored.properties`. This file can be modified and/or removed if required. The priority of the configurations is as follows: if a property has a stored value in `stored.properties`, that value is used. If a property does not have a stored value, but it is defined as in `local.properties`, then that value is used. If a property does not have neither a stored value, nor a local value, then the default value is used.
 
-***NOTE:*** There are some properties that cannot be changed while running the Mission Manager. For v1.0.0-rc5 (Y2) these are:
+***NOTE:*** There are some properties that cannot be changed while running the Mission Manager:
 
 - `rest.port`
 - `rest.base_uri`
